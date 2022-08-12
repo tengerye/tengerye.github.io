@@ -22,3 +22,8 @@ Questions can not use:
 [滑动窗口](https://lfool.github.io/LFool-Notes/algorithm/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3.html), [子数组之滑动窗口篇](https://lfool.github.io/LFool-Notes/algorithm/%E5%AD%90%E6%95%B0%E7%BB%84%E4%B9%8B%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%AF%87.html)
 
 We need to iterate all subarrays where the array is immutable. Based on the constrains, we can determine whether the sliding windows (subarray which is continuous) should expand or contract. In other words, we could determine if an subarray is valid based on the previous subarray and the new element.
+
+
+## Linked List
+### Singly Linked List
+For both adding nodes and deleting nodes, we need to get the previous node. When perform add operation, take care if add to the head. For delete, take care if the linked list is empty and if delete the head.
