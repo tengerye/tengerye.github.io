@@ -76,6 +76,15 @@ The monotonic stack is mainly to solve the previous/next smaller/larger problem 
 Backtrack: use `if` statement instead of states for edge cases.
 
 
+## Dyanmic Programming
+### Pruning
+1. Check if we can exclude impossible candidates with little cost.
+2. Minimize the search space. For example, search from the end if end has fewer possibilities.
+
+Examples:
+[Word Search](https://leetcode.com/problems/word-search/).
+
+
 # Other tricks
 ## Ceiling
 To get `math.ceil(n/m)`, we can use `(n+m-1)//m`.
