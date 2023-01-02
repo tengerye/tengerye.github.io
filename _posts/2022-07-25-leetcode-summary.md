@@ -69,7 +69,7 @@ The monotonic stack is mainly to solve the previous/next smaller/larger problem 
 [LeetCode Union find tutorial](https://leetcode.com/explore/learn/card/graph/618/disjoint-set/3844/).
 
 ## Number theory
-[Euler's Sieve](https://codeforces.com/blog/entry/54090).
+[求素数的三种方法](https://lfool.github.io/LFool-Notes/algorithm/%E6%B1%82%E7%B4%A0%E6%95%B0%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95.html), [Sieve of Eratosthenes](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html), [Linear Sieve](https://cp-algorithms.com/algebra/prime-sieve-linear.html).
 
 
 ## Brute-force
