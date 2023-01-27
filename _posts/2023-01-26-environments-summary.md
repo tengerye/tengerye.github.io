@@ -1,5 +1,6 @@
 # Server related
-[Remote SSH](https://zhuanlan.zhihu.com/p/191627275).
+1. [Set remote SSH](https://zhuanlan.zhihu.com/p/191627275).
+2. [Install NVIDIA driver and CUDA](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/).
 
 
 # Visual Studio Code
