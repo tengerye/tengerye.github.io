@@ -17,7 +17,7 @@ Export container to image:
 docker commit CONTAINER_ID yetengqi/hpu:version1
 
 Run container:
-docker run -it -p 8888:8888 -v /home/tye/projects:/projects --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_vader_single_copy_mechanism=none --cap-add=sys_nice --net=host --ipc=host yetengqi/hpu:version1
+docker run -it -p 8888:8888 -p 6006:6006 -v /home/tye/projects:/projects --runtime=habana -e HABANA_VISIBLE_DEVICES=all -e OMPI_MCA_btl_vader_single_copy_mechanism=none --cap-add=sys_nice --net=host --ipc=host yetengqi/hpu:version1
 
 Inside docker container:
 jupyter lab --allow-root --ip 0.0.0.0
