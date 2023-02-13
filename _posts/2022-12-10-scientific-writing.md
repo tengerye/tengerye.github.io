@@ -32,6 +32,9 @@
 - despite, 
 - series, groups,  
 
+## Verbs
+- Hamper, hinder, block
+
 ## Others
 - To our best knowledge,
 - at the time of writing,
