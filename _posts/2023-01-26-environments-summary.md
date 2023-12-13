@@ -3,6 +3,12 @@
 2. [Install NVIDIA driver and CUDA](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/).
 3. [Docker install](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository). [Run docker without sudo](https://docs.docker.com/engine/install/linux-postinstall/).
 
+## Grant SSH access from server
+Execute the following:
+<pre>
+echo <b>SSH_PUB_KEY</b> | sudo tee /home/tye/.ssh/authorized_keys
+</pre>
+
 ## Set zsh
 Install zsh
 ```
