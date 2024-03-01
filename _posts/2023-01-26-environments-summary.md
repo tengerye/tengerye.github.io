@@ -2,6 +2,7 @@
 1. [Set remote SSH](https://zhuanlan.zhihu.com/p/191627275).
 2. [Install NVIDIA driver and CUDA](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/).
 3. [Docker install](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository). [Run docker without sudo](https://docs.docker.com/engine/install/linux-postinstall/).
+4. [Mount disks](https://zhuanlan.zhihu.com/p/584840576).
 
 ## Grant SSH access from server
 Execute the following:
